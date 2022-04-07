@@ -12,4 +12,4 @@ This will convert the .SVG file to .scap and open the Javascript application to 
 ```
 build/strokestrip examples/study_inputs/filename_cleaned.scap
 ```
-where `filename_cleaned` would be the filename of the newly labeled .scap file.
+where `filename_cleaned` would be the filename of the newly labeled .scap file. The outputs will be produced in the same `study_inputs` folder as the input.

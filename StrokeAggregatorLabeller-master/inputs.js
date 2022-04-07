@@ -1,5 +1,5 @@
 const sequences = {
-  "1": ["data/Ko2.scap",
+  "1": ["data/Riya_hindi_501s_cleaned.scap",
   ],
   "2": [ // done
     "data/BowTie01_tutorial.scap",

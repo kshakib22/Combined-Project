@@ -7,8 +7,12 @@ The .SVG file to be processed needs to be copied into the folder `/strokeaggrega
 ```
 sh script.sh filename.svg
 ```
+#### *IMPORTANT*
 
-This will convert the .SVG file to .scap and open the Javascript application to label this .scap file. After labeling, the user must download the file and paste the file in `strokestrip/examples/study_inputs`. The user should navigate back to `strokestrip/` folder and run the following command through terminal:
+The browser page needs to be **reloaded** once it has been opened by the script. This is because the server is started immediately *after* the browser has been already opened.
+___
+
+The script will convert the .SVG file to .scap and open the Javascript application to label this .scap file. After labeling, the user must download the file and paste the file in `strokestrip/examples/study_inputs`. The user should navigate back to `strokestrip/` folder and run the following command through terminal:
 ```
 build/strokestrip examples/study_inputs/filename_cleaned.scap
 ```
